@@ -11,7 +11,6 @@ nav:
   - Data Pack: "data_pack.md"
   - CraftTweaker: "crafttweaker.md"
   - Configuration File: "config.md"
-  - "Version Selector": "../../"
 
 # Do not edit in PRs below here
 site_name: "Ex Nihilo: Sequentia Documentation"
@@ -28,10 +27,6 @@ markdown_extensions:
   - pymdownx.tabbed
   - toc:
       permalink: false
-
-plugins:
-- mkdocs-versioning:
-    version: '1.16'
 
 theme:
   name: material
