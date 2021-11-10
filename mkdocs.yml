@@ -1,21 +1,23 @@
 # If you add a page, you must add it to the index here
 nav:
-  - Home: 'index.md'
-  - Barrel: 'barrel.md'
-  - Crooks: 'crook.md'
-  - Crucible: 'crucible.md'
-  - Dolls: 'doll.md'
-  - Hammers: 'hammer.md'
-  - Sieve: 'sieve.md'
-  - Misc: 'misc.md'
-  - Data Pack: 'data_pack.md'
-  - CraftTweaker: 'crafttweaker.md'
-  - Configuration File: 'config.md'
+  - Home: "index.md"
+  - Barrel: "barrel.md"
+  - Crooks: "crook.md"
+  - Crucible: "crucible.md"
+  - Dolls: "doll.md"
+  - Hammers: "hammer.md"
+  - Sieve: "sieve.md"
+  - Misc: "misc.md"
+  - Data Pack: "data_pack.md"
+  - CraftTweaker: "crafttweaker.md"
+  - Configuration File: "config.md"
+  - "Version Selector": "../../"
 
 # Do not edit in PRs below here
 site_name: "Ex Nihilo: Sequentia Documentation"
 
 markdown_extensions:
+  - attr_list
   - def_list
   - admonition
   - smarty
@@ -27,5 +29,20 @@ markdown_extensions:
   - toc:
       permalink: false
 
+plugins:
+- mkdocs-versioning:
+    version: '1.16'
+
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode

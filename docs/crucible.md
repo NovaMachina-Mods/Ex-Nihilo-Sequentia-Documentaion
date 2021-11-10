@@ -1,6 +1,6 @@
-Crucible
-========
-The crucible is used to melt various blocks and items into fluids. Right click the barrel to place an item or block into the crucible. Place a heat source under the barrel to begin the melting process. Once a crucible is full, right click with a bucket to add or remove a fluid.
+# Crucible
+
+The crucible is used to melt various blocks and items into fluids. Right click the barrel to place an item or block into the crucible. Place a heat source under the barrel to begin the melting process. Once a crucible is full, right click with a bucket to remove the fluid.
 
 The Fired Crucible can be used to melt down everything that the Wooden Crucible can, however, not everything that the Fired Crucible melts down can be melted by the wooden crucible.
 
@@ -10,61 +10,61 @@ The Fired Crucible can be used to melt down everything that the Wooden Crucible 
 !!! Warning
     Once an item is in the crucible, it cannot be removed. A crucible will void any fluid in it when it is broken.
 
-Recipe
-------
+## Recipe
 ### Wooden Crucible
 ![](images/recipes/crucible_wooden.png)
----
+
 - 4x Wood Log (Any)
 - 1x Wood Slab (Any)
 - 2x Stick
 
+---
+
 ### Unfired Crucible
 ![](images/recipes/crucible_unfired.png)
----
+
 - 7x Porcelain Clay (Any)
 - Smelt an Unfired Crucible to obtain a Fired Crucible.
 
+---
+
 ### Porcelain Clay
 ![](images/recipes/porcelain_clay.png)
----
+
 - 1x Bone Meal
 - 1x Clay
 
-Wooden Crucible Meltable Items
-------------------------------
-Items in the following list will melt down into water in the wooden crucible.
+## Wooden Crucible Meltable Items
+The wooden crucible can be used to create water from various plant items.
 
 | Item         | Amount |
-|--------------|:------:|
-| All Saplings | 250    |
-| All Leaves   | 250    |
+| ------------ | :----: |
+| All Saplings |  250   |
+| All Leaves   |  250   |
 
-Fired Crucible Meltable Items
------------------------------
-Items in the following list will melt down into lava in the fired crucible. In addition, the Fired Crucible can melt down all the items of the Wooden Crucible seciton above into water.
+## Fired Crucible Meltable Items
+The fired crucible can sustain more heat than the wooden crucible. The following items can be melted down into lava. In addition, the fired crucible can create water using the same items as the wooden crucible.
 
-| Item         | Amount |
-|--------------|:------:|
-| Cobblestone  | 250    |
-| Diorite      | 250    |
-| Andesite     | 250    |
-| Granite      | 250    |
-| Stone        | 250    |
-| Gravel       | 200    |
-| Sand         | 100    |
-| Dust         | 50     |
-| Netherrack   | 1000   |
-| Obsidian     | 1000   |
+| Item        | Amount |
+| ----------- | :----: |
+| Andesite    |  250   |
+| Cobblestone |  250   |
+| Diorite     |  250   |
+| Dust        |   50   |
+| Granite     |  250   |
+| Gravel      |  200   |
+| Netherrack  |  1000  |
+| Obsidian    |  1000  |
+| Sand        |  100   |
+| Stone       |  250   |
 
-Heat Sources
-------------
+## Heat Sources
 The following blocks and fluids can be placed below a crucible to begin the melting process. Their heat amounts determine how quickly they melt items.
 
 | Source      | Heat Rate |
-|-------------|:---------:|
-| Lava        | 3         |
-| Fire        | 4         |
-| Torch       | 1         |
-| Magma Block | 2         |
-| Glowstone   | 2         |
+| ----------- | :-------: |
+| Fire        |     4     |
+| Glowstone   |     2     |
+| Lava        |     3     |
+| Magma Block |     2     |
+| Torch       |     1     |

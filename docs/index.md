@@ -1,8 +1,6 @@
-Welcome to the Ex Nihilo: Sequentia Wiki!
-=========================================
+# Welcome to the Ex Nihilo: Sequentia Wiki!
 
 Ex Nihilo is a Latin phrase meaning "out of nothing". Ex Nihilo: Sequentia is the next installment of the long lasting Ex Nihilo mod series. With it you can create resources and mobs out of nothing! Well, sort of...you need a tree to start.
- 
 
 Using barrels, sieves, and a few other tools, you can produce all the resources you need. This mod is particularly useful for those skyblock experiences that we all know and love.
 

@@ -20,96 +20,151 @@ Wood barrels cannot accept hot fluids. Stone barrels can accept hot fluids. Wate
 - 6x Stone
 - 1x Stone Stab
 
-Fluid Transformation
---------------------
-The following are the fluids that will transform. A full barrel and the correct block placed below the barrel is required for the transformation to occur.
+## Fluid Transformation
+The combination of some fluids and blocks will interact and transform the fluid in the barrel. The barrel must be full of the fluid and the block placed directly below the full barrel.
 
-| Fluid | Block    | Result     |
-|-------|----------|------------|
-| Water | Mycelium | Witchwater |
-| Water | Sand     | Sea Water  |
+=== "Sea Water"
+    | Fluid | Block |
+    | ----- | ----- |
+    | Water | Sand  |
+=== "Witchwater"
+    | Fluid | Block    |
+    | ----- | -------- |
+    | Water | Mycelium |
+## Fluid Block Transformation
+When certain blocks or items are right clicked on a full barrel, the fluid will transform into a solid block consuming the block or item.
+=== "Brain Coral Block"
+    | Fluid     | Item             |
+    | --------- | ---------------- |
+    | Sea Water | Brain Coral Seed |
+=== "Brain Coral Wall Fan"
+    | Fluid     | Block           |
+    | --------- | --------------- |
+    | Sea Water | Brain Coral Fan |
+=== "Bubble Coral Block"
+    | Fluid     | Item              |
+    | --------- | ----------------- |
+    | Sea Water | Bubble Coral Seed |
+=== "Bubble Coral Wall Fan"
+    | Fluid     | Block            |
+    | --------- | ---------------- |
+    | Sea Water | Bubble Coral Fan |
+=== "Clay"
+    | Fluid | Block |
+    | ----- | ----- |
+    | Water | Dust  |
+=== "End Stone"
+    | Fluid | Item           |
+    | ----- | -------------- |
+    | Lava  | Glowstone Dust |
+=== "Fire Coral Block"
+    | Fluid     | Item            |
+    | --------- | --------------- |
+    | Sea Water | Fire Coral Seed |
+=== "Fire Coral Wall Fan"
+    | Fluid     | Block          |
+    | --------- | -------------- |
+    | Sea Water | Fire Coral Fan |
+=== "Horn Coral Block"
+    | Fluid     | Item            |
+    | --------- | --------------- |
+    | Sea Water | Horn Coral Seed |
+=== "Horn Coral Wall Fan"
+    | Fluid     | Block          |
+    | --------- | -------------- |
+    | Sea Water | Horn Coral Fan |
+=== "Netherrack"
+    | Fluid | Item          |
+    | ----- | ------------- |
+    | Lava  | Redstone Dust |
+=== "Slime"
+    | Fluid      | Item           |
+    | ---------- | -------------- |
+    | Witchwater | Red Mushroom   |
+    | Witchwater | Brown Mushroom |
+=== "Soul Sand"
+    | Fluid      | Block |
+    | ---------- | ----- |
+    | Witchwater | Sand  |
+=== "Tube Coral Block"
+    | Fluid     | Item            |
+    | --------- | --------------- |
+    | Sea Water | Tube Coral Seed |
+=== "Tube Coral Wall Fan"
+    | Fluid     | Block          |
+    | --------- | -------------- |
+    | Sea Water | Tube Coral Fan |
+## Fluid On Top
+Filling the barrel with a fluid and placing another fluid in the block space above the barrel will result in the fluid in the barrel becoming solid.
 
-Fluid Block Transformation
---------------------------
-The following are the recipes that a barrel will perform when a block, or an item is right clicked on a full barrel with the correct fluid.
+=== "Cobblestone"
+    | Fluid In Barrel | Fluid On Top |
+    | --------------- | ------------ |
+    | Water           | Lava         |
+=== "Obsidian"
+    | Fluid In Barrel | Fluid On Top |
+    | --------------- | ------------ |
+    | Lava            | Water        |
 
-| Fluid      | Block or Item      | Result           |
-|------------|--------------------|------------------|
-| Water      | Dust               | Clay             |
-| Lava       | Redstone Dust      | Netherrack       |
-| Lava       | Glowstone Dust     | End Stone        |
-| Witchwater | Sand               | Soul Sand        |
-| Witchwater | Red Mushroom       | Slime            |
-| Witchwater | Brown Mushroom     | Slime            |
-| Sea Water  | Tube Coral Seed    | Tube Coral Block |
-| Sea Water  | Brain Coral Seed   | Brain Coral Block |
-| Sea Water  | Bubble Coral Seed  | Bubble Coral Block |
-| Sea Water  | Horn Coral Seed    | Horn Coral Block |
-| Sea Water  | Fire Coral Seed    | Fire Coral Block |
-| Sea Water  | Tube Coral Fan     | Tube Coral Wall Fan |
-| Sea Water  | Brain Coral Fan    | Brain Coral Wall Fan |
-| Sea Water  | Bubble Coral Fan   | Bubble Coral Wall Fan |
-| Sea Water  | Horn Coral Fan     | Horn Coral Wall Fan |
-| Sea Water  | Fire Coral Fan     | Fire Coral Wall Fan |
+## Mob Spawning
+Mobs can be spawned from the barrel by filling it with a specific fluid and right clicking the appropriate doll onto the barrel.
 
-Fluid On Top
-------------
-The following are the recipes that a barrel will perform when a barrel contains a fluid and another fluid is placed on top.
+=== "Bee"
+    | Doll         | Fluid      |
+    | ------------ | ---------- |
+    | Buzzing Doll | Witchwater |
+=== "Blaze"
+    | Doll         | Fluid |
+    | ------------ | ----- |
+    | Blazing Doll | Lava  |
+=== "Enderman"
+    | Doll          | Fluid      |
+    | ------------- | ---------- |
+    | Creeping Doll | Witchwater |
+=== "Guardian"
+    | Doll            | Fluid |
+    | --------------- | ----- |
+    | Protecting Doll | Water |
+=== "Shulker"
+    | Doll          | Fluid      |
+    | ------------- | ---------- |
+    | Floating Doll | Witchwater |
+## Compostable Blocks and Items
+The following are items and blocks that can be composted. A barrel begins composting when it reaches a solid amount of 1000.
 
-| Fluid In Barrel | Fluid On Top | Result      |
-|-----------------|--------------|-------------|
-| Lava            | Water        | Obsidian    |
-| Water           | Lava         | Cobblestone |
+|                   |                  |
+| ----------------- | ---------------- |
+| All Saplings      | Sugar Cane       |
+| All Leaves        | Tall Grass       |
+| All Flowers       | Vine             |
+| All Fish          | Lily Pad         |
+| All Cooked Meat   | Poisonous Potato |
+| All Uncooked Meat | Baked Potato     |
+| All Seeds         | Cactus           |
+| Wheat             | Jack-O-Lantern   |
+| Carrot            | Carved Pumpkin   |
+| Beetroot          | Pumpkin          |
+| Potato            | Mellon           |
+| Nether Wart       | Mellon Slice     |
+| Eggs              | Apple            |
+| String            | Cooked Silkworm  |
+| Rotten Flesh      | Silkworm         |
+| Spider Eye        | Pumpkin Pie      |
+| Bread             | Mushrooms        |
+   
+   
+       
 
-Mob Spawning
-------------
-In order to spawn a mob, create the doll of the mob you want to spawn and right click a barrel that has the correct fluid in it.
+      
+   
+       
+       
+ 
+  
+        
+    
 
-| Mob      | Doll            | Fluid      |
-|----------|-----------------|------------|
-| Blaze    | Blazing Doll    | Lava       |
-| Enderman | Creeping Doll   | Witchwater |
-| Shulker  | Floating Doll   | Witchwater |
-| Guardian | Protecting Doll | Water      |
-| Bee      | Buzzing Doll    | Witchwater |
-
-Compostable Blocks and Items
-----------------------------
-The following are items and blocks that can be composted and their amounts. A barrel begins composting when a barrel reaches a solid amount of 1000.
-
-| Item              | Amount |
-|:------------------|:------:|
-| All Saplings      | 125    |
-| All Leaves        | 125    |
-| All Flowers       | 100    |
-| All Fish          | 150    |
-| All Cooked Meat   | 200    |
-| All Uncooked Meat | 200    |
-| All Seeds         | 80     |
-| Wheat             | 80     |
-| Carrot            | 100    |
-| Beetroot          | 100    |
-| Potato            | 100    |
-| Nether Wart       | 100    |
-| Eggs              | 80     |
-| String            | 40     |
-| Rotten Flesh      | 100    |
-| Spider Eye        | 80     |
-| Bread             | 160    |
-| Mushrooms         | 100    |
-| Pumpkin Pie       | 160    |
-| Silkworm          | 40     |
-| Cooked Silkworm   | 40     |
-| Apple             | 100    |
-| Mellon Slice      | 40     |
-| Mellon            | 167    |
-| Pumpkin           | 167    |
-| Carved Pumpkin    | 167    |
-| Jack-O-Lantern    | 167    |
-| Cactus            | 100    |
-| Baked Potato      | 150    |
-| Poisonous Potato  | 200    |
-| Lily Pad          | 100    |
-| Vine              | 100    |
-| Tall Grass        | 100    |
-| Sugar Cane        | 80     |
+      
+          
+     
+        

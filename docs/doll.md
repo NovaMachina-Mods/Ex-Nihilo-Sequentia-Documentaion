@@ -1,72 +1,17 @@
-Dolls
-=====
-Dolls are used to spawn mobs in a barrel. To spawn a mob craft the doll for the entity you want to spawn and then right click on a barrel with the right fluid in it to spawn (See [Barrel Mob Spawning](../barrel/#mob-spawning))
+# Dolls
+Dolls are used to spawn mobs in a barrel. To spawn a mob craft the doll for the entity you want to spawn and then right click on a barrel with the right fluid in it to spawn (See [Barrel Mob Spawning])
 
-Recipes
--------
-### Porcelain Doll
-![](images/recipes/doll_x4.png)
----
-- 5x Porcelain Clay
-- 1x Diamond
+## Recipes
 
-![](images/recipes/doll_x6.png)
----
-- 5x Porcelain Clay
-- 1x Emerald
+| Doll            | Recipe                                | Ingredients                                                                                                                      |
+| --------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Porcelain Doll  | ![](images/recipes/doll_x4.png)       | <ul><li>5x Porcelain Clay</li><li>1x Diamond</li></ul>                                                                           |
+|                 | ![](images/recipes/doll_x6.png)       | <ul><li>5x Porcelain Clay</li><li>1x Emerald</li></ul>                                                                           |
+| Blazing Doll    | ![](images/recipes/doll_blaze.png)    | <ul><li>4x Blaze Powder</li><li>1x Redstone</li><li>1x Porcelain Doll</li><li>1x Nether Wart</li><li>2x Glowstone Dust</li></ul> |
+| Buzzing Doll    | ![](images/recipes/doll_bee.png)      | <ul><li>4x Yellow Dye</li><li>1x Flower (Any)</li><li>1x Porcelain Doll</li><li>1x Beehive Frame</li><li>2x Glowstone</li></ul>  |
+| Creeping Doll   | ![](images/recipes/doll_enderman.png) | <ul><li>4x Black Dye</li><li>1x Redstone</li><li>1x Porcelain Doll</li><li>1x Nether Wart</li><li>2x Glowstone Dust</li></ul>    |
+| Floating Doll   | ![](images/recipes/doll_shulker.png)  | <ul><li>4x Purple Dye</li><li>1x End Stone</li><li>1x Porcelain Doll</li><li>1x Ender Pearl</li><li>2x Glowstone Dust</li></ul>  |
+| Protecting Doll | ![](images/recipes/doll_guardian.png) | <ul><li>4x Prismarine Crystal</li><li>1x Redstone</li><li>1x Porcelain Doll</li><li>1x Fish</li><li>2x Glowstone Dust</li></ul>  |
 
-### Blazing Doll
-Will spawn a Blaze
 
-![](images/recipes/doll_blaze.png)
----
-- 4x Blaze Powder
-- 1x Redstone
-- 1x Porcelain Doll
-- 1x Nether Wart
-- 2x Glowstone Dust
-
-### Creeping Doll
-Will spawn an Enderman
-
-![](images/recipes/doll_enderman.png)
----
-- 4x Black Dye
-- 1x Redstone
-- 1x Porcelain Doll
-- 1x Nether Wart
-- 2x Glowstone Dust
-
-### Floating Doll
-Will spawn a Shulker
-
-![](images/recipes/doll_shulker.png)
----
-- 4x Purple Dye
-- 1x End Stone
-- 1x Porcelain Doll
-- 1x Ender Pearl
-- 2x Glowstone Dust
-
-### Protecting Doll
-Will spawn a Guardian
-
-![](images/recipes/doll_guardian.png)
----
-- 4x Prismarine Crystal
-- 1x Redstone
-- 1x Porcelain Doll
-- 1x Fish
-- 2x Glowstone Dust
-
-### Buzzing Doll
-Will spawn a Bee
-
-![](images/recipes/doll_bee.png)
----
-- 4x Yellow Dye
-- 1x Flower (Any)
-- 1x Porcelain Doll
-- 1x Beehive Frame
-- 2x Glowstone
-[Barrel Mob Spawning]: ../barrel.md/#mob-spawning
+[Barrel Mob Spawning]: ../barrel/#mob-spawning
