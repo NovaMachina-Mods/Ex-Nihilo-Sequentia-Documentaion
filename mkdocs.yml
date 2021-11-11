@@ -11,6 +11,7 @@ nav:
   - Data Pack: "data_pack.md"
   - CraftTweaker: "crafttweaker.md"
   - Configuration File: "config.md"
+  - Contributing: "contributing.md"
 
 # Do not edit in PRs below here
 site_name: "Ex Nihilo: Sequentia Documentation"
@@ -40,3 +41,6 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+repo_url: https://github.com/NovaMachina-Mods/Ex-Nihilo-Sequentia-Documentaion
+repo_name: "Ex Nihilo: Sequentia Documentation"
